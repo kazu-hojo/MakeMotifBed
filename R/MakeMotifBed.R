@@ -1,4 +1,4 @@
-#' @name Mk.motif.bed
+#' @name mk.motif.bed
 #' @title Create bed file of motif you are interested in
 #' @description /code{mk.motif.bed} create bed file of motif you are interested in
 
