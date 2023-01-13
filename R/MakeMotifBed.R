@@ -1,3 +1,4 @@
+#' @name Mk.motif.bed
 #' @title Create bed file of motif you are interested in
 #' @description /code{mk.motif.bed} create bed file of motif you are interested in
 
@@ -6,7 +7,7 @@
 #' @return Dataframe of input motif in bed file format
 #' @export
 #' @example
-#' # mk.motif.bed("Motif")
+#' # mk.motif.bed("Motif", "Genome.fa")
 
 library("Biostrings")
 library("dplyr")
