@@ -1,25 +1,32 @@
+# mk.motif.bed
+Create bed file of motif you are interested in
 
-# MakeMotifBed
+## Requires
+### R packages
+* Biostrings
 
-<!-- badges: start -->
-<!-- badges: end -->
-
-The goal of MakeMotifBed is to ...
+### Input fasta file of genome you are using
+Input fasta file of genome you are using must be at working directory
 
 ## Installation
-
-You can install the development version of MakeMotifBed like so:
-
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
 ```
+remotes::install_github("kazu-hojo/MakeMotifBed")
+```
+
+## Usage
+```
+mk.motif.bed(Motif, Genome)
+```
+
+## Argument
+| Argument | Definition |
+| ---- | ---- |
+| Motif | Motif you are interested in |
+| Genome | Input fasta file of genome you are using |
 
 ## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(MakeMotifBed)
-## basic example code
+Generate Homeobox motif 'TAAT'
 ```
-
+TAAT.bed <- mk.motif.bed("TAAT", "genome.fa")
+write.table(TAAT.bed, "TAATT_UCSC_mm10.bed", row.names = FALSE, col.names = FALSE, sep = "\t", quote = F)
+```
