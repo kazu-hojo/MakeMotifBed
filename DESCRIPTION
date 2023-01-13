@@ -1,0 +1,13 @@
+Package: MakeMotifBed
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.0.1
+Author: Kazunori Hojo
+Maintainer: Kazunori Hojo <hojo1411@g.ecc.u-tokyo.ac.jp>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
