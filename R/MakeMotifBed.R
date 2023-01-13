@@ -5,6 +5,8 @@
 #' @param Motif Motif you are interested in
 #' @param Genome Input fasta file of genome you are using
 #' @return Dataframe of input motif in bed file format
+#' @import Biostrings
+#' @import dplyr
 #' @export
 #' @example
 #' # mk.motif.bed("Motif", "Genome.fa")
