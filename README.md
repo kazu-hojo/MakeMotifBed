@@ -6,7 +6,7 @@ Create bed file of motif you are interested in
 * Biostrings
 
 ### Input fasta file of genome you are using
-Input fasta file of genome you are using must be at working directory
+Input fasta file of genome you are using must be at working directory or specified the directory
 
 ## Installation
 ```
